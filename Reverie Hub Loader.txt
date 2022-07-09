@@ -121,6 +121,8 @@ end
 coroutine.wrap(LBVW_fake_script)()
 
 wait(5)
+print("Loading!")
 loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
 wait(0.1)
 loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/utegoxomaq"))()
+print("Loaded!")
