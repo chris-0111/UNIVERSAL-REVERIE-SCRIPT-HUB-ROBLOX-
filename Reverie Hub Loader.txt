@@ -1,3 +1,5 @@
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Gradient = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -44,7 +46,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0.100344837, 0, 0.323892146, 0)
 TextLabel_2.Size = UDim2.new(0.797672451, 0, 0.338995755, 0)
 TextLabel_2.Font = Enum.Font.JosefinSans
-TextLabel_2.Text = "REVERIE SCRIPT HUB"
+TextLabel_2.Text = "Text123123"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 24.000
 TextLabel_2.TextWrapped = true
@@ -84,7 +86,7 @@ UIGradient.Parent = Gradient
 
 -- Scripts:
 
-local function GGNZ_fake_script() -- TextLabel.LocalScript 
+local function ARZBZP_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -99,8 +101,8 @@ local function GGNZ_fake_script() -- TextLabel.LocalScript
 	end
 	wait(1)
 end
-coroutine.wrap(GGNZ_fake_script)()
-local function RURO_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(ARZBZP_fake_script)()
+local function NNLVW_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local t = 5; --how long does it take to go through the rainbow
@@ -116,8 +118,8 @@ local function RURO_fake_script() -- TextLabel_2.LocalScript
 		TextLabel.TextColor3 = color
 	end)
 end
-coroutine.wrap(RURO_fake_script)()
-local function YRNBOW_fake_script() -- Gradient.LocalScript 
+coroutine.wrap(NNLVW_fake_script)()
+local function EOAEN_fake_script() -- Gradient.LocalScript 
 	local script = Instance.new('LocalScript', Gradient)
 
 	wait(1)
@@ -125,8 +127,7 @@ local function YRNBOW_fake_script() -- Gradient.LocalScript
 	script.Parent:TweenSize(UDim2.new(0,0,0,0), "Out","Linear",0.6)
 	script.Parent:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out","Linear",0.6)
 end
-coroutine.wrap(YRNBOW_fake_script)()
-
+coroutine.wrap(EOAEN_fake_script)()
 
 wait(5)
 print("Loading!")
