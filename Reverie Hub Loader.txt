@@ -1,6 +1,5 @@
 -- Instances:
 
-local ScreenGui = Instance.new("ScreenGui")
 local Gradient = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
@@ -12,10 +11,8 @@ local UIGradient = Instance.new("UIGradient")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
 Gradient.Name = "Gradient"
-Gradient.Parent = ScreenGui
+Gradient.Parent = game.StarterGui.ScreenGui
 Gradient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Gradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Gradient.BorderSizePixel = 0
@@ -46,7 +43,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0.100344837, 0, 0.323892146, 0)
 TextLabel_2.Size = UDim2.new(0.797672451, 0, 0.338995755, 0)
 TextLabel_2.Font = Enum.Font.JosefinSans
-TextLabel_2.Text = "REVERIE SCRIPT HUB"
+TextLabel_2.Text = "Text123123"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 24.000
 TextLabel_2.TextWrapped = true
@@ -86,7 +83,7 @@ UIGradient.Parent = Gradient
 
 -- Scripts:
 
-local function COWS_fake_script() -- TextLabel.LocalScript 
+local function GGNZ_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -101,8 +98,8 @@ local function COWS_fake_script() -- TextLabel.LocalScript
 	end
 	wait(1)
 end
-coroutine.wrap(COWS_fake_script)()
-local function LBVW_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(GGNZ_fake_script)()
+local function RURO_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local t = 5; --how long does it take to go through the rainbow
@@ -118,7 +115,17 @@ local function LBVW_fake_script() -- TextLabel_2.LocalScript
 		TextLabel.TextColor3 = color
 	end)
 end
-coroutine.wrap(LBVW_fake_script)()
+coroutine.wrap(RURO_fake_script)()
+local function YRNBOW_fake_script() -- Gradient.LocalScript 
+	local script = Instance.new('LocalScript', Gradient)
+
+	wait(1)
+	print("Exit Loading")
+	script.Parent:TweenSize(UDim2.new(0,0,0,0), "Out","Linear",0.6)
+	script.Parent:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out","Linear",0.6)
+end
+coroutine.wrap(YRNBOW_fake_script)()
+
 
 wait(5)
 print("Loading!")
