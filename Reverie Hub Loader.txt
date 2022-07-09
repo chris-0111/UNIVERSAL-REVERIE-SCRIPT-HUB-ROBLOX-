@@ -1,5 +1,6 @@
 -- Instances:
 
+local ScreenGui = Instance.new("ScreenGui")
 local Gradient = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
