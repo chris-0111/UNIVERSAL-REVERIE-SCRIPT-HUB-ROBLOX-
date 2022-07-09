@@ -1,5 +1,3 @@
--- Instances:
-
 local ScreenGui = Instance.new("ScreenGui")
 local Gradient = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -12,8 +10,10 @@ local UIGradient = Instance.new("UIGradient")
 
 --Properties:
 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
 Gradient.Name = "Gradient"
-Gradient.Parent = game.StarterGui.ScreenGui
+Gradient.Parent = ScreenGui
 Gradient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Gradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Gradient.BorderSizePixel = 0
