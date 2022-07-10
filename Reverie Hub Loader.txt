@@ -35,8 +35,7 @@ TextLabel.Size = UDim2.new(0.400000006, 0, 0.180000007, 0)
 TextLabel.Font = Enum.Font.JosefinSans
 TextLabel.Text = "Loading"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
+TextLabel.TextSize = 20.000
 TextLabel.TextWrapped = true
 
 TextLabel_2.Parent = Gradient
@@ -86,7 +85,7 @@ UIGradient.Parent = Gradient
 
 -- Scripts:
 
-local function ARZBZP_fake_script() -- TextLabel.LocalScript 
+local function TWFYWX_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -101,11 +100,11 @@ local function ARZBZP_fake_script() -- TextLabel.LocalScript
 	end
 	wait(1)
 end
-coroutine.wrap(ARZBZP_fake_script)()
-local function NNLVW_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(TWFYWX_fake_script)()
+local function THBNME_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
-	local t = 5; --how long does it take to go through the rainbow
+	local t = 5;
 	
 	local tick = tick
 	local fromHSV = Color3.fromHSV
@@ -118,18 +117,19 @@ local function NNLVW_fake_script() -- TextLabel_2.LocalScript
 		TextLabel.TextColor3 = color
 	end)
 end
-
-coroutine.wrap(NNLVW_fake_script)()
-local function EOAEN_fake_script() -- Gradient.LocalScript 
+coroutine.wrap(THBNME_fake_script)()
+local function WGAJK_fake_script() -- Gradient.LocalScript 
 	local script = Instance.new('LocalScript', Gradient)
 
-	wait(5)
+	wait(6)
 	print("Exit Loading")
 	script.Parent:TweenSize(UDim2.new(0,0,0,0), "Out","Linear",0.6)
 	script.Parent:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out","Linear",0.6)
 end
-coroutine.wrap(EOAEN_fake_script)()
+coroutine.wrap(WGAJK_fake_script)()
 
+
+wait(0.4)
 print("Loading!")
 loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
 wait(0.1)
