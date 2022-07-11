@@ -51,7 +51,7 @@ local function MMRBVN_fake_script() -- Frame.LocalScript
 
 	wait(6)
 	script.Parent.Visible = true
-	wait(4)
+	wait(6)
 	script.Parent.Visible = false
 end
 coroutine.wrap(MMRBVN_fake_script)()
