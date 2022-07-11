@@ -45,7 +45,7 @@ check_box.ImageRectSize = Vector2.new(48, 48)
 
 -- Scripts:
 
-local function FHJBOP_fake_script() -- Frame.LocalScript 
+local function CMEAV_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	wait(6)
@@ -53,4 +53,4 @@ local function FHJBOP_fake_script() -- Frame.LocalScript
 	wait(4)
 	script.Parent.Visible = false
 end
-coroutine.wrap(FHJBOP_fake_script)()
+coroutine.wrap(CMEAV_fake_script)()
