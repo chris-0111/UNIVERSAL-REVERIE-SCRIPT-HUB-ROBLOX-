@@ -7,8 +7,10 @@ local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local Pattern = Instance.new("ImageLabel")
 local UIGradient = Instance.new("UIGradient")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Pattern = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -30,11 +32,12 @@ TextLabel.Parent = Gradient
 TextLabel.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.299652904, 0, 0.59305805, 0)
-TextLabel.Size = UDim2.new(0.400000006, 0, 0.180000007, 0)
+TextLabel.Position = UDim2.new(0.284463048, 0, 0.659513712, 0)
+TextLabel.Size = UDim2.new(0.426582307, 0, 0.19898735, 0)
 TextLabel.Font = Enum.Font.JosefinSans
 TextLabel.Text = "Loading"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
 TextLabel.TextSize = 20.000
 TextLabel.TextWrapped = true
 
@@ -47,45 +50,69 @@ TextLabel_2.Size = UDim2.new(0.797672451, 0, 0.338995755, 0)
 TextLabel_2.Font = Enum.Font.JosefinSans
 TextLabel_2.Text = "REVERIE SCRIPT HUB"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextSize = 24.000
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 54.000
 TextLabel_2.TextWrapped = true
 
 TextLabel_3.Parent = Gradient
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
 TextLabel_3.BackgroundTransparency = 1.000
 TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(9.31322575e-10, 0, 0.0399999991, 0)
-TextLabel_3.Size = UDim2.new(0.150000006, 0, 0.0799999982, 0)
+TextLabel_3.Position = UDim2.new(-0.0218181815, 0, -0.0045454544, 0)
+TextLabel_3.Size = UDim2.new(0.150000006, 0, 0.167468339, 0)
 TextLabel_3.Font = Enum.Font.JosefinSans
-TextLabel_3.Text = "v1.0.2"
+TextLabel_3.Text = "v1.0.3"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
+TextLabel_3.TextSize = 19.000
 TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextWrapped = true
 
 UIAspectRatioConstraint.Parent = Gradient
 UIAspectRatioConstraint.AspectRatio = 2.500
 
-Pattern.Name = "Pattern"
-Pattern.Parent = Gradient
-Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Pattern.BackgroundTransparency = 1.000
-Pattern.Position = UDim2.new(-0.00610572845, 0, -0.00969827175, 0)
-Pattern.Size = UDim2.new(1.00539255, 0, 0.995884776, 0)
-Pattern.Image = "rbxassetid://121480522"
-Pattern.ImageTransparency = 0.800
-Pattern.ScaleType = Enum.ScaleType.Tile
-Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
-Pattern.TileSize = UDim2.new(0, 45, 0, 45)
-
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 52, 161)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 110, 255))}
 UIGradient.Rotation = 90
 UIGradient.Parent = Gradient
 
+TextLabel_4.Parent = Gradient
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.409669012, 0, 0.0187108796, 0)
+TextLabel_4.Size = UDim2.new(0.597815275, 0, 0.103831992, 0)
+TextLabel_4.Font = Enum.Font.JosefinSans
+TextLabel_4.Text = "chris-0111 on GITHUB!"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 9.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextWrapped = true
+
+ImageLabel.Parent = Gradient
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0109090907, 0, 0.759090841, 0)
+ImageLabel.Size = UDim2.new(0.0818181783, 0, 0.204545453, 0)
+ImageLabel.ZIndex = 2
+ImageLabel.Image = "http://www.roblox.com/asset/?id=2459243309"
+
+Pattern.Name = "Pattern"
+Pattern.Parent = ScreenGui
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Position = UDim2.new(0.321767718, 0, 0.389127284, 0)
+Pattern.Size = UDim2.new(0.274177462, 0, 0.221212119, 0)
+Pattern.ZIndex = 0
+Pattern.Image = "rbxassetid://2151760196"
+Pattern.ImageTransparency = 0.900
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 25, 0, 15)
+
 -- Scripts:
 
-local function TWFYWX_fake_script() -- TextLabel.LocalScript 
+local function MEPEO_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -100,8 +127,8 @@ local function TWFYWX_fake_script() -- TextLabel.LocalScript
 	end
 	wait(1)
 end
-coroutine.wrap(TWFYWX_fake_script)()
-local function THBNME_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(MEPEO_fake_script)()
+local function VUGSGA_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local t = 5;
@@ -117,21 +144,40 @@ local function THBNME_fake_script() -- TextLabel_2.LocalScript
 		TextLabel.TextColor3 = color
 	end)
 end
-coroutine.wrap(THBNME_fake_script)()
-local function WGAJK_fake_script() -- Gradient.LocalScript 
+coroutine.wrap(VUGSGA_fake_script)()
+local function HADPHG_fake_script() -- Gradient.Tween/Exit 
 	local script = Instance.new('LocalScript', Gradient)
 
 	wait(6)
+	print("Loading!")
+	loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
+	wait(0.1)
+	loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/utegoxomaq"))()
+	print("Loaded!")
+	
+	
+	wait(0.1)
 	print("Exit Loading")
 	script.Parent:TweenSize(UDim2.new(0,0,0,0), "Out","Linear",0.6)
 	script.Parent:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out","Linear",0.6)
 end
-coroutine.wrap(WGAJK_fake_script)()
+coroutine.wrap(HADPHG_fake_script)()
+local function TLJEEJJ_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
 
-
-wait(0.4)
-print("Loading!")
-loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
-wait(0.1)
-loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/utegoxomaq"))()
-print("Loaded!")
+	local TweenService = game:GetService("TweenService")
+	local Object = script.Parent
+	
+	local tweenInfo = TweenInfo.new(
+		2.5,
+		Enum.EasingStyle.Linear,
+		Enum.EasingDirection.Out,
+		-1,
+		false,
+		0
+	)
+	
+	local Tween = TweenService:Create(Object, tweenInfo, {Rotation = 360})
+	Tween:Play()
+end
+coroutine.wrap(TLJEEJJ_fake_script)()
