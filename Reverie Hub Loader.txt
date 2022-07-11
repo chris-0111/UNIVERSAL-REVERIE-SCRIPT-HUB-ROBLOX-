@@ -181,3 +181,6 @@ local function TLJEEJJ_fake_script() -- ImageLabel.LocalScript
 	Tween:Play()
 end
 coroutine.wrap(TLJEEJJ_fake_script)()
+
+wait(0.1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/chris-0111/UNIVERSAL-REVERIE-SCRIPT-HUB-ROBLOX-/main/LoadDone"))()
