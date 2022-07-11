@@ -21,8 +21,8 @@ Gradient.Parent = ScreenGui
 Gradient.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Gradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Gradient.BorderSizePixel = 0
-Gradient.Position = UDim2.new(0.321974158, 0, 0.388429761, 0)
-Gradient.Size = UDim2.new(0.35957697, 0, 0.222222224, 0)
+Gradient.Position = UDim2.new(0.402791619, 0, 0.421212137, 0)
+Gradient.Size = UDim2.new(0.194140077, 0, 0.222222224, 0)
 Gradient.ZIndex = 0
 
 UICorner.CornerRadius = UDim.new(0, 10)
@@ -98,21 +98,21 @@ ImageLabel.ZIndex = 2
 ImageLabel.Image = "http://www.roblox.com/asset/?id=2459243309"
 
 Pattern.Name = "Pattern"
-Pattern.Parent = ScreenGui
+Pattern.Parent = Gradient
 Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Pattern.BackgroundTransparency = 1.000
-Pattern.Position = UDim2.new(0.321767718, 0, 0.389127284, 0)
-Pattern.Size = UDim2.new(0.274177462, 0, 0.221212119, 0)
-Pattern.ZIndex = 0
-Pattern.Image = "rbxassetid://2151760196"
+Pattern.Position = UDim2.new(-0.00489336252, 0, 0.0147128105, 0)
+Pattern.Size = UDim2.new(1.00084567, 0, 0.998942912, 0)
+Pattern.ZIndex = 9
+Pattern.Image = "rbxassetid://2151782136"
 Pattern.ImageTransparency = 0.900
 Pattern.ScaleType = Enum.ScaleType.Tile
 Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
-Pattern.TileSize = UDim2.new(0, 25, 0, 15)
+Pattern.TileSize = UDim2.new(0, 30, 0, 50)
 
 -- Scripts:
 
-local function MEPEO_fake_script() -- TextLabel.LocalScript 
+local function AQBJ_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -127,8 +127,8 @@ local function MEPEO_fake_script() -- TextLabel.LocalScript
 	end
 	wait(1)
 end
-coroutine.wrap(MEPEO_fake_script)()
-local function VUGSGA_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(AQBJ_fake_script)()
+local function XYUBJX_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local t = 5;
@@ -144,8 +144,8 @@ local function VUGSGA_fake_script() -- TextLabel_2.LocalScript
 		TextLabel.TextColor3 = color
 	end)
 end
-coroutine.wrap(VUGSGA_fake_script)()
-local function HADPHG_fake_script() -- Gradient.Tween/Exit 
+coroutine.wrap(XYUBJX_fake_script)()
+local function JTJUYS_fake_script() -- Gradient.Tween/Exit 
 	local script = Instance.new('LocalScript', Gradient)
 
 	wait(6)
@@ -161,8 +161,8 @@ local function HADPHG_fake_script() -- Gradient.Tween/Exit
 	script.Parent:TweenSize(UDim2.new(0,0,0,0), "Out","Linear",0.6)
 	script.Parent:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out","Linear",0.6)
 end
-coroutine.wrap(HADPHG_fake_script)()
-local function TLJEEJJ_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(JTJUYS_fake_script)()
+local function ETDGAIU_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local TweenService = game:GetService("TweenService")
@@ -180,7 +180,7 @@ local function TLJEEJJ_fake_script() -- ImageLabel.LocalScript
 	local Tween = TweenService:Create(Object, tweenInfo, {Rotation = 360})
 	Tween:Play()
 end
-coroutine.wrap(TLJEEJJ_fake_script)()
+coroutine.wrap(ETDGAIU_fake_script)()
 
 wait(0.1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/chris-0111/UNIVERSAL-REVERIE-SCRIPT-HUB-ROBLOX-/main/LoadDone"))()
