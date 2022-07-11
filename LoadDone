@@ -1,0 +1,56 @@
+-- Instances:
+
+local LoadDone = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel1 = Instance.new("TextLabel")
+local check_box = Instance.new("ImageButton")
+
+--Properties:
+
+LoadDone.Name = "LoadDone"
+LoadDone.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+LoadDone.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = LoadDone
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.315992117, 0, 0.898989916, 0)
+Frame.Size = UDim2.new(0.27966103, 0, 0.101010099, 0)
+Frame.Visible = false
+
+TextLabel1.Name = "TextLabel1"
+TextLabel1.Parent = Frame
+TextLabel1.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextLabel1.BackgroundTransparency = 1.000
+TextLabel1.BorderSizePixel = 0
+TextLabel1.Position = UDim2.new(0.349376112, 0, 0.600000024, 0)
+TextLabel1.Size = UDim2.new(0.316065371, 0, 0.398986965, 0)
+TextLabel1.Font = Enum.Font.JosefinSans
+TextLabel1.Text = "Loaded"
+TextLabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.TextScaled = true
+TextLabel1.TextSize = 20.000
+TextLabel1.TextWrapped = true
+
+check_box.Name = "check_box"
+check_box.Parent = TextLabel1
+check_box.BackgroundTransparency = 1.000
+check_box.LayoutOrder = 4
+check_box.Position = UDim2.new(-0.100000001, 0, -0.0500000007, 0)
+check_box.Size = UDim2.new(0.225590199, 0, 1.00253904, 0)
+check_box.ZIndex = 2
+check_box.Image = "rbxassetid://3926311105"
+check_box.ImageRectOffset = Vector2.new(4, 836)
+check_box.ImageRectSize = Vector2.new(48, 48)
+
+-- Scripts:
+
+local function FHJBOP_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	wait(6)
+	script.Parent.Visible = true
+	wait(4)
+	script.Parent.Visible = false
+end
+coroutine.wrap(FHJBOP_fake_script)()
