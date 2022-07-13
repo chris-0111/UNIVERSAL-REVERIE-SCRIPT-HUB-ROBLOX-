@@ -151,12 +151,11 @@ local function TTQDAF_fake_script() -- Gradient.Tween/Exit
 
 	wait(4)
 	print("Loading!")
-	loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/unerurulih"))()
-	wait(0.1)
 	loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
+	wait(0.1)
+	loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/unerurulih"))()
 	print("Loaded!")
 	
-	wait(0.1)
 	print("Exit Loading")
 	script.Parent:TweenSize(UDim2.new(0,0,0,0), "Out","Linear",0.6)
 	script.Parent:TweenPosition(UDim2.new(0.5,0,0.5,0), "Out","Linear",0.6)
