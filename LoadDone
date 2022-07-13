@@ -49,7 +49,7 @@ check_box.ScaleType = Enum.ScaleType.Fit
 local function QMHEAL_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
-	wait(4)
+	wait(6)
 	script.Parent.Visible = true
 	wait(6)
 	script.Parent.Visible = false
