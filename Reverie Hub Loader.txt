@@ -149,7 +149,7 @@ coroutine.wrap(UUATH_fake_script)()
 local function TTQDAF_fake_script() -- Gradient.Tween/Exit 
 	local script = Instance.new('LocalScript', Gradient)
 
-	wait(6)
+	wait(4)
 	print("Loading!")
 	loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
 	wait(0.1)
