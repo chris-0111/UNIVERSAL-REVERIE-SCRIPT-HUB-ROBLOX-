@@ -8,3 +8,4 @@ features:
 
 Up and coming:
 
+- Alert when loading error
