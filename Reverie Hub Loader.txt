@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/fVMaZwmA"))() -- Load Failure
+
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -151,9 +153,9 @@ local function TTQDAF_fake_script() -- Gradient.Tween/Exit
 
 	wait(4)
 	print("Loading!")
-	loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))() -- After tween visble ui = false
 	wait(0.1)
-	loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/pehisegagu"))()
+	loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/pehisegagu"))() -- Main
 	print("Loaded!")
 	
 	print("Exit Loading")
@@ -182,4 +184,4 @@ end
 coroutine.wrap(KJGKF_fake_script)()
 
 wait(1)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/chris-0111/UNIVERSAL-REVERIE-SCRIPT-HUB-ROBLOX-/main/LoadDone"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/chris-0111/UNIVERSAL-REVERIE-SCRIPT-HUB-ROBLOX-/main/LoadDone"))() -- Load complete
