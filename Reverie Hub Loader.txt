@@ -155,7 +155,7 @@ local function TTQDAF_fake_script() -- Gradient.Tween/Exit
 	print("Loading!")
 	loadstring(game:HttpGet("https://pastebin.com/raw/fPLnLwWP"))() -- After tween visble ui = false
 	wait(0.1)
-	loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/pehisegagu"))() -- Main
+	loadstring(game:HttpGet("https://pastebin.com/raw/AF1WjcVq"))() -- Main
 	print("Loaded!")
 	
 	print("Exit Loading")
